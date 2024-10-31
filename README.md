@@ -26,6 +26,7 @@ Each model outputs frame-level predictions, followed by a voting mechanism for a
 * **Learning Rate Scheduling**: ReduceLROnPlateau for dynamic LR adjustments
 * **Gradient Accumulation**: Used to manage memory, dividing the batch updates over several steps.
 
+
 ## Project Walkthrough
 
 ### 1. Data Collection and Preprocessing 
