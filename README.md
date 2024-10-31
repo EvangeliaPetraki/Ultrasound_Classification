@@ -31,7 +31,7 @@ Each model outputs frame-level predictions, followed by a voting mechanism for a
 
 ### 1. Data Collection and Preprocessing 
 
-This part of the project involves collecting and preprocessing ultrasound DICOM files to create a dataset that is suitable for our deep learning models. The scripts are located in the [Named Link](https://github.com/EvangeliaPetraki/Ultrasound_Classification/tree/main/Dataset%20Collection%20and%20Preprocessing/ Dataset Collection and Preprocessing) folder
+This part of the project involves collecting and preprocessing ultrasound DICOM files to create a dataset that is suitable for our deep learning models. The scripts are located in the [Dataset Collection and Preprocessing](https://github.com/EvangeliaPetraki/Ultrasound_Classification/tree/main/Dataset%20Collection%20and%20Preprocessing/) folder
 
 #### a. Data Collection
 
@@ -84,6 +84,6 @@ In both training and video diagnosis phases, key metrics include:
 ### 7. Model Evaluation on New Dataset
 
 As you might have noticed, during the training phase, the "evaluation by sequence" part took place using a dataset of .mp4 videos. This was proven to be suboptimal, due to degraded image quality. 
-The scripts in the [Named Link](https://github.com/EvangeliaPetraki/Ultrasound_Classification/tree/main/Evaluation/ "Evaluation") folder perform model evaluation on a new dataset, where each "video" is basically a set of .png images (frames). In this way, the quality was good and the accuacy improved significantly. 
+The scripts in the [Evaluation](https://github.com/EvangeliaPetraki/Ultrasound_Classification/tree/main/Evaluation/) folder perform model evaluation on a new dataset, where each "video" is basically a set of .png images (frames). In this way, the quality was good and the accuacy improved significantly. 
 If you are to use these scritps, make sure that your dataset is structured as mentioned. 
 
