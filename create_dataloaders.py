@@ -31,6 +31,10 @@ class AlbumentationsDataset(Dataset):
     def classes(self):
         return [self.class_map[i] for i in range(len(self.dataset.classes))]
 
+    # MVD with TCR -> 0
+    # MVD without TCR -> 1
+    # Normal Heart -> 2
+
 def get_dataloader(rootDir, transforms, batchSize, class_map=None, shuffle=True):
     # Pass the class_map to AlbumentationsDataset
     ds = AlbumentationsDataset(rootDir, transform=transforms, class_map=class_map)
